@@ -6,7 +6,7 @@
   padding: 10px;
   border-radius: 50%; /* Make it circular */
   cursor: pointer;
-  color: white;
+  color: rgb(0, 0, 0);
   z-index: 1000; /* Ensure it appears above other elements */
   display: flex;
   align-items: center;

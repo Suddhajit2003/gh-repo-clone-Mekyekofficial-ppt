@@ -1,8 +1,6 @@
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "./AppSidebar";
 import { Outlet } from "react-router-dom";
-import FloatingChatbox from "./popup";
-
 export function Layout() {
   return (
     <SidebarProvider>
@@ -13,7 +11,6 @@ export function Layout() {
           <Outlet />
         </main>
       </div>
-      <FloatingChatbox/>
     </SidebarProvider>
   );
 }
